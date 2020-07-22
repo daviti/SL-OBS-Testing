@@ -1,3 +1,4 @@
+
  version: 2
  jobs: # we now have TWO jobs, so that a workflow can coordinate them!
    one: # This is our first job.
@@ -22,3 +23,4 @@
      jobs: # and here we list the jobs we are going to run.
        - one
        - two
+
