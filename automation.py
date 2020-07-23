@@ -61,6 +61,12 @@ time.sleep(2)
 submit = driver.find_element_by_id('loadurls_submit')
 submit.click()
 
+# selects run check
+time.sleep(3)
+runCheck = driver.find_element_by_id('runcheck')
+runCheck.click()
+time.sleep(5)
+
 # selects save list from left nav
 time.sleep(3)
 saveList = driver.find_element_by_id('convert-table')
@@ -69,10 +75,5 @@ time.sleep(3)
 close = driver.find_element_by_class_name('.btn.btn-primary')
 close.click()
 
-# selects run check
-time.sleep(3)
-runCheck = driver.find_element_by_id('runcheck')
-runCheck.click()
-time.sleep(5)
 
 driver.close()
